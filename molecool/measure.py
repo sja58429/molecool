@@ -1,5 +1,7 @@
 import numpy as np
 
+from .atom_data import atomic_weights
+
 """
 This module is for functions that perform measurements.
 """
@@ -66,3 +68,6 @@ def calculate_center_of_mass(symbols, coordinates):
     .. math:: \\vec{R}=\\frac{1}{M} \\sum_{i=1}^{n} m_{i}\\vec{r_{}i}
     
     """
+    
+    pass
+
