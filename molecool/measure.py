@@ -16,7 +16,7 @@ def calculate_angle(rA, rB, rC, degrees=False):
         return theta
 
 
-def calculate_distance(rA, rB):
+def calculate_distance(rA:np.ndarray, rB:np.ndarray) -> float:
     """Calculate the distance between two points.
 
     Parameters
